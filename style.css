@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+
+/*RESET*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style : none;
+}
+/*FIN RESET*/
+
+/*STYLE GENERAL*/
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+.background-beige {
+    background: hsl(60, 56%, 91%);
+}
+
+.flux {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: 'lobster';
+    font-size: 3rem;
+    color: rgb(59, 59, 59);
+}
+
+h2 {     
+    font-family: 'Alegreya Sans', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 11rem;
+    box-sizing: content-box;
+    position: relative;
+    z-index: 2;
+    padding: 70px 0 0 30px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(65, 123, 173);
+    font-family: 'lobster';
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: justify;
+    font-size: 2.5rem;
+}
+
+.ToUppercase {
+    text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.object-fit {
+    object-fit: cover;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.colorWhite {
+    color: hsl(0, 0%, 100%);
+}
+/*END STYLE GENERAL*/
+
+/*START HEADER*/
+header {
+    justify-content: space-around;
+    padding-top: 10px;
+    color: hsl(0, 0%, 0%);
+}
+
+header img {
+    width: 150px;
+    height: 200px;
+}
+
+.list-link {
+    gap: 40px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-link:last-child a {
+    background: hsl(29, 80%, 62%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+/*END HEADER*/
+
+/*START COVER*/
+.cover {
+    position: relative;
+    height: 90vh;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.cover img {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-position: left;
+}
+
+.bottom-cover {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_discover {
+    z-index: 2;
+    background: hsl(208, 45%, 47%);
+    padding: 20px 45px;
+    border-radius: 50px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* END COVER*/
+
+/* START INTRODUCTION*/
+.introduction {
+    background: hsl(0, 0%, 99%);
+    padding: 50px 0 50px 0;
+}
+
+.introduction .flux p {
+    margin-bottom: 50px;
+}
+
+.key-i + p {
+    margin-top: 50px;
+}
+
+.key-i {
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(59, 59, 59);
+    padding: 60px 50px 50px 50px;
+}
+
+.key-i-container {
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.key-logo {
+    font-size: 7rem;
+    color: hsl(208, 45%, 47%);
+}
+
+.key-text {
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*END INTRODUCTION*/
