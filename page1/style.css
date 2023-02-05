@@ -190,3 +190,40 @@ header img {
     font-size: 2.5rem;
 }
 /*END INTRODUCTION*/
+
+/*START ARTICLE*/
+/*START ARTICLE BALADE*/
+.Walk-Dog {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.picture {
+    width: 800px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+.button {
+    background-color: hsl(208, 45%, 47%);
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.container-share-like {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.container-share-like img {
+    transition: transform 0.5s ease;
+}
+
+.container-share-like img:hover {
+    transform: scale(1.2, 1.2)
+}
+/*END ARTICLE : BALADE*/
