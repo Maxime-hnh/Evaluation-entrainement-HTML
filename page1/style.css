@@ -287,3 +287,19 @@ header img {
 }
 /*END ARTICLE DRESSAGE*/
 /*END SECTION ARTICLE*/
+
+/*START SECTION SE MOBILISE*/
+.Mobilize {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0 50px 0;
+    background: hsl(0, 0%, 100%);
+}
+
+.Mobilize p {
+    font-size: 3rem;
+}
+/*END SECTION SE MOBILISE*/
