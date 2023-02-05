@@ -227,3 +227,63 @@ header img {
     transform: scale(1.2, 1.2)
 }
 /*END ARTICLE : BALADE*/
+
+/*START ARTICLE : DRESSAGE*/
+.article-taming {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.container-images img {
+    object-fit: contain;
+    height: 254px;
+    width: 371px;
+    border-radius: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.taming-text:hover {
+    opacity: 0.8;
+}
+
+.taming-text {
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.seat {
+    padding: 95px;
+    margin-left: 25px;
+}
+
+.lie-down {
+    padding: 85px;
+    margin-top: 10px;
+}
+
+.dont-touch {
+    padding: 37px;
+    margin-top: 60px;
+    height: 192px;
+}
+
+.do-a-trick {
+    padding: 37px;
+    margin-top: 56px;
+    height: 194px;
+}
+/*END ARTICLE DRESSAGE*/
+/*END SECTION ARTICLE*/
