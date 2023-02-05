@@ -342,3 +342,124 @@ footer {
     font-size: 1.7rem;
 }
 /*END FOOTER*/
+
+/* START RESPONSIVE TITLE*/
+@media screen and (min-width:1227px) {
+    .title h2 {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (min-width:1488px) {
+    .title h2 {
+        font-size: 12rem;
+    }
+}
+
+@media screen and (min-width:1780px) {
+    .title h2 {
+        font-size: 15rem;
+    }
+    .button_discover {
+        padding: 25px 65px;
+        border-radius: 76px;
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width:2217px) {
+    .title h2 {
+        font-size: 18rem;
+        padding: 0 0 0 30px;
+    }
+}
+/*END RESPONSIVE TITLE*/
+
+
+@media screen and (min-width:1140px) {
+    .container-share-like {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cover img {
+        object-position: center;
+    }
+    .key-i {
+        margin: 0 150px 0 150px;
+        padding: 60px 50px 75px 50px;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+/*------------------------------------*/
+
+@media screen and (min-width: 1633px) {
+    header img {
+        width: 180px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .button_discover {
+        padding: 25px 50px;
+        border-radius: 65px;
+        font-size: 5rem;
+    }
+
+    .introduction {
+        margin : 0 50px 0 50px;
+    }
+
+    .introduction p {
+        text-align: center;
+    }
+
+    .article {
+        margin : 0 90px 0 90px;
+    }
+
+    .Mobilize h3 {
+        width: 100%;
+    }
+
+    .Mobilize {
+        height: 75vh;
+        flex-direction: row;
+        margin: 50px;
+        padding: 0;
+    }
+
+    .Mobilize p {
+        width: 40%;
+        margin-right: 0;
+    }
+
+}
+/*------------------------------------*/
+
+@media screen and (min-width: 2002px) {
+    .nav-link {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 7rem;
+    }
+    .introduction {
+        margin: 0 75px 0 75px;
+    }
+    .article {
+        margin: 0 120px 0 120px;
+    }
+    .Mobilize {
+        height: 50vh;
+    }
+    .picture {
+        width: 950px;
+    }
+}
