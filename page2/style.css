@@ -173,6 +173,87 @@ header img {
 }
 /*END SEAT*/
 
+/*START PARTNERSHIP*/
+.partnership {
+    flex-direction: column;
+    align-items: center;
+}
+
+.partnership p {
+    text-align: justify;
+}
+
+.quotes {
+    quotes: "«" "»";
+    font-style: italics;
+}
+
+.quotes::before {
+  content: open-quote;
+}
+
+.quotes::after {
+  content: close-quote;
+}
+  
+
+aside {
+    margin-bottom: 50px;
+}
+
+aside img {
+    margin-top: 50px;
+}
+/*END PARTNERSHIP*/
+
+/* START TABLE*/
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 4rem;
+    font-family: 'lobster';
+    color: hsl(29, 80%, 62%);
+    font-size: 4rem;
+    margin: 50px 0 50px 0;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+    text-align: center;
+}
+
+thead tr {
+    font-weight: bold;
+    background: rgb(65, 123, 173);
+    text-transform: uppercase;
+    color: white;
+}
+
+td {
+    transition: transform .2s;
+}
+
+td:hover,
+td:active {
+    transform: scale(2);
+}
+
+.small, 
+.tall {
+    background: beige;
+}
+/*END TABLE*/
+
 /*START FOOTER*/
 footer {
     flex-direction: column;
