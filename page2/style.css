@@ -104,7 +104,6 @@ p {
 .colorWhite {
     color: hsl(0, 0%, 100%);
 }
-
 /*END STYLE GENERAL*/
 
 /*START HEADER*/
@@ -134,8 +133,45 @@ header img {
     border-radius: 30px;
     font-weight: bold;
 }
-
 /*END HEADER*/
+
+/*START SEAT*/
+.cover-picture {
+    width: 850px;
+    height: 740px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    object-position: bottom;
+}
+
+.upper-article {
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction {
+    flex-direction: column;
+}
+
+.friandise {
+    width: 225px;
+    height: 125px;
+    float: left;
+    padding-right: 10px;
+}
+
+.steps {
+    flex-direction: column;
+}
+
+.steps-pictures {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    align-self: center;
+}
+/*END SEAT*/
 
 /*START FOOTER*/
 footer {
