@@ -303,3 +303,42 @@ header img {
     font-size: 3rem;
 }
 /*END SECTION SE MOBILISE*/
+
+/*START FOOTER*/
+footer {
+    flex-direction: column;
+    min-height: 500px;
+    width: 100%;
+    background: hsl(0, 0%, 23%);
+}
+
+.social-media {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 340px;
+    font-size: 5rem;
+    color: rgb(59, 59, 59);
+}
+
+.social-media i {
+    padding-right: 10px;
+}
+
+.social-media p {
+    font-size: 4rem;
+    padding: 0 0 20px 0;
+}
+
+.mid-foot ul {
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.bottom {
+    align-self: center;
+    padding-top: 45px;
+    font-size: 1.7rem;
+}
+/*END FOOTER*/
